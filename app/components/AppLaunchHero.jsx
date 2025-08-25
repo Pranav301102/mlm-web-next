@@ -64,7 +64,7 @@ export default function AppLaunchHero() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Shine in Every <span style={{color: 'white'}}>Role,</span> <span style={{color: '#FFE100'}}>Mum</span>
+              Shine in Every <span style={{color: 'white'}}>Role,</span> <span style={{color: 'white'}}>Mum</span>
             </h1>
             
             <p className="text-lg md:text-xl mb-8 text-white leading-relaxed">
