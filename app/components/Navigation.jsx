@@ -56,7 +56,7 @@ export default function Navigation() {
 
           <div className="hidden md:block">
             <button 
-              onClick={() => scrollToSection('early-access')} 
+              onClick={() => scrollToSection('app-launch')} 
               className="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-all duration-200"
             >
               Get Early Access
