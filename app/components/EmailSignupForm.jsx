@@ -101,7 +101,7 @@ export default function EmailSignupForm() {
       <div className="flex justify-center">
         <button 
           onClick={() => scrollToSection('features')}
-          className="border-2 border-white text-white font-medium text-lg px-8 py-3 rounded-lg hover:bg-white/10 transition-colors"
+          className="border-2 border-white text-white font-medium text-lg px-8 py-3 mb-4 rounded-lg hover:bg-white/10 transition-colors"
         >
           See Features
         </button>

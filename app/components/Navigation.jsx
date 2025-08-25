@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { Heart } from 'lucide-react';
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-lg text-white">💜</span>
+            <Heart className="text-lg text-white"></Heart>
             </div>
             <span className="text-xl font-bold text-gray-900">Mums Like Me</span>
           </div>

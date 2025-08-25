@@ -9,7 +9,7 @@ export default function Footer() {
               <div className="md:col-span-2">
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-[var(--primary-color)] rounded-lg flex items-center justify-center">
-                    <div className="icon-heart text-lg text-white"></div>
+                    <Heart className="text-lg text-white"></Heart>
                   </div>
                   <span className="text-xl font-bold">Mums Like Me</span>
                 </div>
@@ -42,8 +42,8 @@ export default function Footer() {
               <div>
                 <h4 className="font-semibold mb-4">Newsletter</h4>
                 <ul className="space-y-2">
-                  <li><a href="/newsletter.html" className="text-gray-300 hover:text-white transition-colors">Read Articles</a></li>
-                  <li><a href="#newsletter" className="text-gray-300 hover:text-white transition-colors">Subscribe</a></li>
+                  <li><a href="https://mumslikeme.beehiiv.com/archive" className="text-gray-300 hover:text-white transition-colors">Read Articles</a></li>
+                  <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Subscribe</a></li>
                   <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
                 </ul>
               </div>
