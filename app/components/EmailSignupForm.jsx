@@ -1,11 +1,29 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 export default function EmailSignupForm() {
   const [email, setEmail] = useState('');
   const [consent, setConsent] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const emailInputRef = useRef(null);
+
+  // Auto-focus email input when component mounts (simulating "Get Early Access" click)
+  useEffect(() => {
+    if (emailInputRef.current) {
+      emailInputRef.current.focus();
+    }
+  }, []);
+
+  const handleGetEarlyAccessClick = () => {
+    if (!consent) {
+      alert('Please check the consent box first to receive early access updates.');
+      return;
+    }
+    if (emailInputRef.current) {
+      emailInputRef.current.focus();
+    }
+  };
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -18,7 +36,7 @@ export default function EmailSignupForm() {
     e.preventDefault();
     
     if (!consent) {
-      alert('Please agree to receive emails by checking the consent box.');
+      alert('Please check the consent box first to receive early access updates.');
       return;
     }
     
@@ -55,6 +73,7 @@ export default function EmailSignupForm() {
       <form onSubmit={handleSubmit} className="mb-8">
         <div className="flex flex-col sm:flex-row gap-4 items-center mb-4">
           <input
+            ref={emailInputRef}
             type="email"
             placeholder="Enter your email for early access"
             value={email}
@@ -64,7 +83,12 @@ export default function EmailSignupForm() {
           />
           <button 
             type="submit" 
-            className="whitespace-nowrap bg-white text-orange-500 font-bold text-lg px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
+            onClick={!consent ? handleGetEarlyAccessClick : undefined}
+            className={`whitespace-nowrap font-bold text-lg px-8 py-3 rounded-lg transition-colors ${
+              !consent 
+                ? 'bg-gray-400 text-gray-600 cursor-not-allowed' 
+                : 'bg-white text-orange-500 hover:bg-gray-100'
+            }`}
             disabled={!email || !consent}
           >
             {isSubmitted ? 'Submitted!' : 'Get Early Access'}

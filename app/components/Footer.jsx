@@ -44,7 +44,7 @@ export default function Footer() {
                 <ul className="space-y-2">
                   <li><a href="https://mumslikeme.beehiiv.com/archive" className="text-gray-300 hover:text-white transition-colors">Read Articles</a></li>
                   <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Subscribe</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
+                  <li><a href="/privacy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>

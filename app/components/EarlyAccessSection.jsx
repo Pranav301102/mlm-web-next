@@ -60,7 +60,7 @@ export default function EarlyAccessSection() {
             onClick={scrollToHero}
             className="w-full bg-orange-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-all duration-200"
           >
-            Join Waitlist
+            Get Early Access
           </button>
           <p className="text-sm text-gray-500 mt-4">
             Click above to join our exclusive early access waitlist
