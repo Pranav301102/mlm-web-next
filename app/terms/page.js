@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Terms() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600">
@@ -9,7 +11,7 @@ export default function Terms() {
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Acceptance of the Terms of Use</h2>
             <p className="mb-6 text-gray-700 leading-relaxed">
-              These terms of use are entered into by and between you ("you" or "your") and Mums Like Me Inc. ( "we," "us" or "our"). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, "Terms of Use"), govern your access to and use of our products, functionality and services, including without limitation, those provided through https://www.mumslike.me/ (collectively, "Mums Like Me"), whether as a guest or a registered user.
+              These terms of use are entered into by and between you (&quot;you&quot; or &quot;your&quot;) and Mums Like Me Inc. ( &quot;we,&quot; &quot;us&quot; or &quot;our&quot;). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, &quot;Terms of Use&quot;), govern your access to and use of our products, functionality and services, including without limitation, those provided through https://www.mumslike.me/ (collectively, &quot;Mums Like Me&quot;), whether as a guest or a registered user.
             </p>
             <p className="mb-6 text-gray-700 leading-relaxed">
               Please read the Terms of Use carefully before you start to use Mums Like Me. By using Mums Like Me, you accept and agree to be bound and abide by these Terms of Use, our Publisher Agreement (if applicable) and our Privacy Policy, found at Mums Like Me.com/privacy incorporated herein by reference. If you do not want to agree to the foregoing, you must not access or use Mums Like Me.
@@ -47,12 +49,12 @@ export default function Terms() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Intellectual Property Rights</h2>
             <p className="mb-8 text-gray-700 leading-relaxed">
-              Mums Like Me's trademarks, logos, intellectual property, content, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by Mums Like Me, its licensors, or other providers of such content and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
+              Mums Like Me&apos;s trademarks, logos, intellectual property, content, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by Mums Like Me, its licensors, or other providers of such content and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Stripe</h2>
             <p className="mb-8 text-gray-700 leading-relaxed">
-              Mums Like Me's payments are processed through Stripe, which excludes certain types of businesses from using their service. Please refer to the Stripe Service Agreement (see the US agreement) and Stripe's restricted businesses for more information about restricted business categories and practices.
+              Mums Like Me&apos;s payments are processed through Stripe, which excludes certain types of businesses from using their service. Please refer to the Stripe Service Agreement (see the US agreement) and Stripe&apos;s restricted businesses for more information about restricted business categories and practices.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Platform Requirements, Prohibited Behavior, and Prohibited Content</h2>
@@ -60,13 +62,13 @@ export default function Terms() {
               Please be advised to carefully review our Privacy Policy for a comprehensive compilation of platform requirements, prohibited behavior, and prohibited content. It is imperative to note that these stipulations are hereby incorporated into this Agreement by reference.
             </p>
             <p className="mb-8 text-gray-700 leading-relaxed">
-              We have the exclusive right to interpret and enforce our "Privacy Policy" guidelines, although we may consult outside experts, research, and industry best practices in doing so. If you encounter content that may be in breach of these guidelines or have any questions about them, you can email us at info@mumslike.me.
+              We have the exclusive right to interpret and enforce our &quot;Privacy Policy&quot; guidelines, although we may consult outside experts, research, and industry best practices in doing so. If you encounter content that may be in breach of these guidelines or have any questions about them, you can email us at info@mumslike.me.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Monitoring and Enforcement; Termination</h2>
             <p className="mb-4 text-gray-700 leading-relaxed">In our sole discretion, we have the right to:</p>
             <ul className="list-disc pl-6 mb-6 text-gray-700 leading-relaxed">
-              <li>Remove or refuse to publish any content for any or no reason, and/or hide such content from public view and/or Mums Like Me's discovery features, or impose other restrictions.</li>
+              <li>Remove or refuse to publish any content for any or no reason, and/or hide such content from public view and/or Mums Like Me&apos;s discovery features, or impose other restrictions.</li>
               <li>Take any action with respect to any content that we deem necessary or appropriate in our sole discretion, including if we believe that such content violates the Terms of Use, including the Content Standards, infringes any intellectual property right or other right of any person or entity, threatens the personal safety of users of Mums Like Me or the public, or could create liability for Mums Like Me.</li>
               <li>Disclose your identity or other information about you to any third party who claims that content published by you violates their rights, including their intellectual property rights or their right to privacy.</li>
               <li>Take appropriate legal action, including without limitation, referral to law enforcement, for any illegal or unauthorized use of Mums Like Me.</li>
@@ -81,12 +83,12 @@ export default function Terms() {
             </p>
 
             <div className="mt-12 text-center">
-              <a 
+              <Link 
                 href="/"
                 className="bg-gradient-to-r from-orange-400 via-pink-500 to-purple-600 text-white font-bold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>

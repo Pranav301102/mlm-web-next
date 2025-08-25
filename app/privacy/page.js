@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-400 via-pink-500 to-purple-600">
@@ -9,10 +11,10 @@ export default function Privacy() {
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
             <p className="mb-6 text-gray-700 leading-relaxed">
-              Mums Like Me Inc. ("Company," or "we," "our," or "us") respects your privacy, and we are committed to protecting it through our compliance with this policy.
+              Mums Like Me Inc. (&quot;Company,&quot; or &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) respects your privacy, and we are committed to protecting it through our compliance with this policy.
             </p>
             <p className="mb-6 text-gray-700 leading-relaxed">
-              This Privacy Policy (our "Privacy Policy") describes the types of information we may collect from you or that you may provide when you visit or use our website located at https://www.Mums Like Me.com/ (our "Website") and our practices for collecting, using, maintaining, protecting, and disclosing that information. For purposes of this Privacy Policy, our Website and all related services and functionality that we provide through them are referred to as our "Digital Services".
+              This Privacy Policy (our &quot;Privacy Policy&quot;) describes the types of information we may collect from you or that you may provide when you visit or use our website located at https://www.Mums Like Me.com/ (our &quot;Website&quot;) and our practices for collecting, using, maintaining, protecting, and disclosing that information. For purposes of this Privacy Policy, our Website and all related services and functionality that we provide through them are referred to as our &quot;Digital Services&quot;.
             </p>
             <p className="mb-4 text-gray-700 leading-relaxed">This policy applies to information we collect:</p>
             <ul className="list-disc pl-6 mb-6 text-gray-700">
@@ -38,7 +40,7 @@ export default function Privacy() {
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Generally</h3>
             <p className="mb-4 text-gray-700 leading-relaxed">We collect several types of information from and about users of our Digital Services, specifically information:</p>
             <ul className="list-disc pl-6 mb-6 text-gray-700">
-              <li>by which you may be personally identified, such as name, postal address, billing address, shipping address, e-mail address, credit or debit card number (for payment purposes only) ("Personal Data");</li>
+              <li>by which you may be personally identified, such as name, postal address, billing address, shipping address, e-mail address, credit or debit card number (for payment purposes only) (&quot;Personal Data&quot;);</li>
               <li>that is about you but individually does not identify you, such as traffic data, logs, referring/exit pages, date and time of your visit to or use of our Digital Services, error information, clickstream data, and other communication data and the resources that you access and use on or through our Digital Services; or</li>
               <li>about your Internet connection, the equipment you use to access or use our Digital Services and usage details.</li>
             </ul>
@@ -58,7 +60,7 @@ export default function Privacy() {
               <li>details of transactions you carry out through our Digital Services and of the fulfillment of your orders (including financial information you are required to provide before placing an order through our Digital Services).</li>
             </ul>
             <p className="mb-8 text-gray-700 leading-relaxed">
-              You also may provide information to be published or displayed (hereinafter, "posted") on public areas of the Digital Services or transmitted to other users of the Digital Services or third parties (collectively, "User Contributions"). Your User Contributions are posted on and transmitted to others at your own risk. Although we limit access to certain pages, please be aware that no security measures are perfect or impenetrable. Additionally, we cannot control the actions of other users of the Digital Services with whom you may choose to share your User Contributions. Therefore, we cannot and do not guarantee that your User Contributions will not be viewed by unauthorized persons.
+              You also may provide information to be published or displayed (hereinafter, &quot;posted&quot;) on public areas of the Digital Services or transmitted to other users of the Digital Services or third parties (collectively, &quot;User Contributions&quot;). Your User Contributions are posted on and transmitted to others at your own risk. Although we limit access to certain pages, please be aware that no security measures are perfect or impenetrable. Additionally, we cannot control the actions of other users of the Digital Services with whom you may choose to share your User Contributions. Therefore, we cannot and do not guarantee that your User Contributions will not be viewed by unauthorized persons.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Information we collect about you as a subscriber to a newsletter on Mums Like Me</h3>
@@ -67,7 +69,7 @@ export default function Privacy() {
               <li>Metadata about your browser and ip address, including approximate geolocation, in order to prevent fraudulent signups and provide analytics to our publishers about where their readers are.</li>
               <li>Any information you input into a survey form created by the publisher, or a poll you answer.</li>
               <li>What links you click in emails you receive from us</li>
-              <li>If you comment on a post on a publication's website, we'll ask for your name to identify you in the discussion.</li>
+              <li>If you comment on a post on a publication&apos;s website, we&apos;ll ask for your name to identify you in the discussion.</li>
               <li>If you sign up for a premium (paid) newsletter, we will collect and store your payment information with our payment provider, Stripe. We do not store the raw credit card numbers within our systems.</li>
             </ul>
             <p className="mb-8 text-gray-700 leading-relaxed">
@@ -95,7 +97,7 @@ export default function Privacy() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. California Privacy Rights for California Residents</h2>
             <p className="mb-6 text-gray-700 leading-relaxed">
-              These California Privacy Rights supplement the other information contained in our Privacy Policy and applies solely to all visitors, users, and others who reside in the State of California ("consumers" or "you"). This notice is to comply with the California Consumer Privacy Act of 2018 ("CCPA") and any terms defined in the CCPA have the same meaning when used in this notice. We may update these California Privacy Rights as necessary and in the event of changes in the CCPA. These terms apply only to California residents.
+              These California Privacy Rights supplement the other information contained in our Privacy Policy and applies solely to all visitors, users, and others who reside in the State of California (&quot;consumers&quot; or &quot;you&quot;). This notice is to comply with the California Consumer Privacy Act of 2018 (&quot;CCPA&quot;) and any terms defined in the CCPA have the same meaning when used in this notice. We may update these California Privacy Rights as necessary and in the event of changes in the CCPA. These terms apply only to California residents.
             </p>
             
             <h3 className="text-xl font-semibold text-gray-900 mb-3">Non-Discrimination</h3>
@@ -109,16 +111,16 @@ export default function Privacy() {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Changes to Our Privacy Policy</h2>
             <p className="mb-8 text-gray-700 leading-relaxed">
-              We may change this Privacy Policy at any time. It is our policy to post any changes we make to our Privacy Policy on this page with a notice that the Privacy Policy has been updated on the Website's home page. If we make material changes to how we treat our users' Personal Data, we will notify you by email to the email address specified in your account and/or through a notice on the Website's home page. The date this Privacy Policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our Website and reviewing this Privacy Policy to check for any changes.
+              We may change this Privacy Policy at any time. It is our policy to post any changes we make to our Privacy Policy on this page with a notice that the Privacy Policy has been updated on the Website&apos;s home page. If we make material changes to how we treat our users&apos; Personal Data, we will notify you by email to the email address specified in your account and/or through a notice on the Website&apos;s home page. The date this Privacy Policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our Website and reviewing this Privacy Policy to check for any changes.
             </p>
 
             <div className="mt-12 text-center">
-              <a 
+              <Link 
                 href="/"
                 className="bg-gradient-to-r from-orange-400 via-pink-500 to-purple-600 text-white font-bold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Back to Home
-              </a>
+              </Link>
             </div>
           </div>
         </div>
